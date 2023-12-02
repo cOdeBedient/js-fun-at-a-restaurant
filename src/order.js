@@ -2,9 +2,6 @@
 function takeOrder(order, typeArray){
   if (typeArray.length < 3){
     typeArray.push(order);
-  } else {
-  return `Order queue full`
-  // is this actually usable? Where would it print this?
   }
 }
 
