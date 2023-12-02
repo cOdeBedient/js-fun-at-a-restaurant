@@ -8,14 +8,14 @@ function createMenuItem(item, price, type) {
     price: price,
     type: type,
   }
-  return menuItem
+  return menuItem;
 }
 
 function addIngredients(ingredient, array){
-  if (array.includes(ingredient) === false){
+  if (!array.includes(ingredient)){
     array.push(ingredient);
-    return array;
   }
+  return array;
 }
 
 function formatPrice(price){
